@@ -1,0 +1,19 @@
+id,name,host_name,neighbourhood,room_type,price,minimum_nights,number_of_reviews,last_review,reviews_per_month,availability_365,amenities
+101,Depto acogedor en La Mariscal,Ana Salazar,la mariscal,Entire home/apt,$42.00,2,134,2024-10-02,4.1,180,"Wifi, Cocina, TV"
+102,Loft con vista a Cumbayá,Carlos Pico,Cumbaya,Entire home/apt,$65.00,3,98,2024-09-18,2.8,250,"Wifi, Cocina, Piscina, Parqueo"
+103,Habitación privada cerca al Centro Histórico,Maria Jose Lopez,Centro Historico,Private room,$18.00,1,210,2024-10-10,6.3,90,"Wifi, Desayuno"
+104,Cuarto compartido para mochileros,,La Floresta,Shared room,$10.00,1,45,2024-08-22,1.9,300,Wifi
+105,Depto familiar en González Suárez,Pedro Ruiz,Gonzalez Suarez,Entire home/apt,$75.00,2,56,2024-07-30,1.2,120,"Wifi, Cocina, TV, Calefaccion"
+106,Suite ejecutiva en La Carolina,Lucia Tama,La Carolina,Entire home/apt,$58.00,2,0,,,365,"Wifi, Cocina, Gimnasio"
+107,Habitación en casa de familia - Guápulo,Jorge Velez,Guapulo,Private room,$15.00,1,12,2024-05-14,0.4,200,"Wifi, Desayuno, Vista al valle"
+108,Penthouse de lujo en González Suárez,Pedro Ruiz,Gonzalez Suarez,Entire home/apt,"$1,200.00",3,8,2024-06-01,0.3,60,"Wifi, Jacuzzi, Piscina, Parqueo, Aire acondicionado"
+101,Depto acogedor en La Mariscal,Ana Salazar,la mariscal,Entire home/apt,$42.00,2,134,2024-10-02,4.1,180,"Wifi, Cocina, TV"
+110,Estudio minimalista en La Floresta,Sofia Andrade,La Floresta,Entire home/apt,$38.00,2,67,2024-09-05,2.5,220,"Wifi, Cocina"
+111,Cabaña ecológica en Tumbaco,Roberto Chavez,Tumbaco,Entire home/apt,$55.00,3,23,2024-08-11,0.9,280,"Wifi, Parqueo, Jardin"
+112,Habitación cómoda en Quito Tenis,Andrea Salgado,Quito Tenis,Private room,$20.00,1,0,,,310,Wifi
+113,Depto con terraza en El Bosque,Diego Naranjo,El Bosque,Entire home/apt,$48.00,2,78,2024-09-28,3.0,150,"Wifi, Cocina, Terraza"
+114,Habitación compartida cerca al aeropuerto,Mónica Reyes,Tababela,Shared room,$12.00,1,30,2024-07-19,1.1,340,Wifi
+115,Suite romántica en La Mariscal,,La Mariscal,Entire home/apt,$52.00,2,14,2024-04-02,0.5,200,"Wifi, Cocina, Jacuzzi"
+116,Depto sencillo en Centro Histórico,Maria Jose Lopez,centro historico,Entire home/apt,$30.00,1,102,2024-10-15,5.2,100,"Wifi, Cocina"
+117,Habitación con baño privado - La Carolina,Lucia Tama,La Carolina,Private room,$22.00,1,9,2024-03-10,0.3,250,"Wifi, Desayuno"
+118,Mansión exclusiva con piscina infinita,Esteban Borja,Cumbaya,Entire home/apt,"$2,500.00",4,3,2024-02-14,0.1,40,"Wifi, Piscina infinita, Jacuzzi, Gimnasio, Parqueo, Aire acondicionado"
