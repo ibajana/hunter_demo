@@ -32,7 +32,14 @@ class _AsignacionScreenState extends State<AsignacionScreen> {
   @override
   void initState() {
     super.initState();
-    _buscar();
+    // Carga inicial: consulta directa al estado sin tocar el foco
+    // (FocusScope.of(context) no es válido dentro de initState).
+    _state.buscar(
+      os: _osCtrl.text,
+      soloRecepcionada: _soloRecepcionada,
+      desde: parseFilterDate(_fechaIniCtrl.text),
+      hasta: parseFilterDate(_fechaFinCtrl.text),
+    );
   }
 
   @override

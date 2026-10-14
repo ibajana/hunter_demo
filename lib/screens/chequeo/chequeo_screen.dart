@@ -61,7 +61,7 @@ class _ChequeoTabState extends State<_ChequeoTab> {
   @override
   void initState() {
     super.initState();
-    _buscar();
+    _consultar();
   }
 
   @override
@@ -74,6 +74,11 @@ class _ChequeoTabState extends State<_ChequeoTab> {
 
   Future<void> _buscar() async {
     FocusScope.of(context).unfocus();
+    await _consultar();
+  }
+
+  /// Consulta al repositorio sin tocar el foco (segura en initState).
+  Future<void> _consultar() async {
     setState(() => _cargando = true);
     final r = await Repositories.taller.fetchWorkOrders(
       os: _osCtrl.text,
@@ -312,7 +317,7 @@ class _NovedadTabState extends State<_NovedadTab> {
   @override
   void initState() {
     super.initState();
-    _buscar();
+    _consultar();
   }
 
   @override
@@ -324,6 +329,11 @@ class _NovedadTabState extends State<_NovedadTab> {
 
   Future<void> _buscar() async {
     FocusScope.of(context).unfocus();
+    await _consultar();
+  }
+
+  /// Consulta al repositorio sin tocar el foco (segura en initState).
+  Future<void> _consultar() async {
     final dia = parseFilterDate(_fechaCtrl.text);
     setState(() => _cargando = true);
     final r = await Repositories.taller

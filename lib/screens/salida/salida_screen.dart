@@ -32,7 +32,7 @@ class _SalidaScreenState extends State<SalidaScreen> {
   @override
   void initState() {
     super.initState();
-    _buscar();
+    _consultar();
   }
 
   @override
@@ -44,6 +44,11 @@ class _SalidaScreenState extends State<SalidaScreen> {
 
   Future<void> _buscar() async {
     FocusScope.of(context).unfocus();
+    await _consultar();
+  }
+
+  /// Consulta al repositorio sin tocar el foco (segura en initState).
+  Future<void> _consultar() async {
     setState(() => _cargando = true);
     final r = await Repositories.taller.fetchSalidaRows(
       desde: parseFilterDate(_fechaIniCtrl.text),
